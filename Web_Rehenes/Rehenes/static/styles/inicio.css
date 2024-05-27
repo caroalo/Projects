@@ -1,0 +1,151 @@
+/*root*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+.logo img{
+    width: 80;
+    height: 80px;
+
+}
+
+#navbarNav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+#contacto{
+    color: rgb(156, 6, 7) !important;
+}
+
+/*background image*/
+.inicio img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/*presentaciones y cards*/
+
+.presentacion .card {
+    width: 300px;
+    height: 300px;
+   
+}
+
+.presentacion .card h5{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.presentacion .card p{
+    font-weight: bold;
+}
+
+.images img{
+    width: 300px;
+    height: 300px;
+   
+}
+
+.images img:hover {
+    border: solid rgba(156, 6, 6, 0);
+}
+
+.images a {
+    font-size: 20px;
+    color: rgb(156, 6, 7);
+    font-style: italic;
+    text-decoration: none;
+}
+
+.line{
+    color: rgb(156, 6, 7);
+    width: 200px;
+}
+
+.nosotros-img img{
+    width: 100%;
+}
+
+.nosotros-lorem p {
+    font-size: 28px;
+    font-weight:300;
+    margin-top: 5%;
+}
+
+.nosotros-lorem button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 100%;
+    margin-top: 50px;
+}
+
+
+.equipo img {
+    width: 400px;
+    height: 400px;
+}
+
+.equipo img:hover {
+    border: solid rgba(156, 6, 6, 0);
+}
+
+.equipo a {
+    font-size: 20px;
+    color: rgb(156, 6, 7);
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+.equipo .line{
+    color: rgb(156, 6, 7);
+    width: 300px;
+
+}
+footer ul {
+    margin-top: 100px;
+}
+
+footer .personalize a  {
+    color: rgb(156, 6, 7) ;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration:underline;
+}
+
+footer .personalize a:hover {
+    color: rgb(156, 6, 7) ;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration:underline;
+}
+
+footer .contacto p {
+    color: white;
+    font-weight: bold;
+
+}
+
+footer .contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .contacto .sub {
+    background-color: rgb(156, 6, 7);
+    font-weight: 500;
+    width: 200px;
+}
+
+footer .line-cont {
+    color: rgb(156, 6, 7);
+    width: 600px;
+    margin: 0 auto;
+}

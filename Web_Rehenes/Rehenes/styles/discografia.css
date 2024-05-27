@@ -1,0 +1,108 @@
+/*root*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*navbar*/
+  .logo img {
+    width: 80;
+    height: 80px;
+  }
+  
+  
+  #navbarNav ul li a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  #contacto {
+    color: rgb(156, 6, 7) !important;
+  }
+  
+  
+  body {
+  color: black;
+  background-color: white;
+  }
+  
+  .discografia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 20px;
+  }
+  h1 {
+    padding-top: 20px;
+    font-size: 3rem;
+    
+  
+  }
+  .discografia {
+    font-size: large
+   
+  }
+  
+  .discos-name {
+    color: #f80404;
+  }
+  
+  .disco {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .img1 {
+    width: 30%;
+  }
+  
+  footer ul {
+    margin-top: 100px;
+  }
+  
+  footer .personalize a  {
+    color: rgb(156, 6, 7) ;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration:underline;
+  }
+  
+  footer .personalize a:hover {
+    color: rgb(156, 6, 7) ;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration:underline;
+  }
+  
+  footer .contacto p {
+    color: white;
+    font-weight: bold;
+  
+  }
+  
+  footer .contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .contacto .sub {
+    background-color: rgb(156, 6, 7);
+    font-weight: 500;
+    width: 200px;
+  }
+  
+  footer .line-cont {
+    color: rgb(156, 6, 7);
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  

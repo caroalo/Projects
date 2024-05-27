@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<h1> Contacto </h1>
+<script src="script.js"></script>
+<img class=logobanda src="img/Logo.JPG" alt="logo">
+<body>
+    
+    <div> <h3>Seguinos en redes!</h3>
+        <div class="boxmodel"> <img class=logoredes src="img/ig.jpg" alt="instagram logo">    
+        <p> @Rehenes.ok </p>
+        <img class="logoredes" src="img/logoTikTok.png" alt="tik tok logo">
+        <p> Rehenes </p> </div>
+    </div>
+
+    <header> <h2> Contactanos </h2></header>
+    <link rel="stylesheet" href="stylePF.css">
+
+    <div>
+        <label> <h3> Nombre: * </h3>
+        <div class="form_short_box">
+        <input class="form_short" type="text" id="name" required placeholder="Nombre"></label>
+        <input class="form_short" type="text" id="lastname" required placeholder="Apellido"></label>
+        </div>
+    <div>
+        <label> <h3> Teléfono: * </h3>
+        <div class="form_short_box">
+        <input class="form_short" type="number" id="code" required placeholder="código de área">
+        <input class="form_short" type="number" id="telephone" required placeholder="Teléfono">
+    </label>
+        </div>
+    </div>
+
+    <div>
+        <label> <h3> e-mail: * </h3>
+        <input class="form_long" type="text" id="email" required placeholder="email@email.com"></label>
+    </div>
+
+    <div>
+        <label> <h3> Dejanos aquí tu mensaje: * </h3>
+        <input class="message" type="text" id="message" required placeholder="Mensaje"></label>
+    </div>
+<br>
+    <div class="checkbox">
+        <input type="checkbox" id="terminos">
+        <label for="terminos" class="label">Acepto los Términos y Condiciones</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" id="newletter">
+        <label for="terminos" class="label">Aceptas recibir novedades por e-mail (shows, eventos, ofertas)?</label>
+    </div>
+        <br> <br>
+        <button class="boton" ref="" >Aceptar</button>
+    
+        <script src="validacion.js"></script>
+
+</body>
+</html>
