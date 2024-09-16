@@ -1,0 +1,13 @@
+#Preprar ambiente virtual de Python
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+streamlit
+plotly
+#Poner en Terminal: python -m venv env   >> Crea el ambiente
+#Poner en Terminal: env/Scripts/active >> Activa el ambiente
+#Poner en Terminal: pip install -r .\requirements.txt >> Para instalar librerías
+#pip install --upgrade jupyter
+
